@@ -1,11 +1,11 @@
-package org.example.serversidekotlin
+package jp.ac.it_college.std.s23007.inspect.book.manager.board.board
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ServerSideKotlinApplication
+class MessageBoardApplication
 
 fun main(args: Array<String>) {
-    runApplication<ServerSideKotlinApplication>(*args)
+    runApplication<MessageBoardApplication>(*args)
 }
